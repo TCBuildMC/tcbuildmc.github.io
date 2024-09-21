@@ -13,11 +13,91 @@
   <script>
     window.$docsify = {
       name: 'TubeCraft Impact 服务器',
-      repo: 'https://github.com/TCBuildMC/tcbuildmc.github.io',
-      loadSidebar: true
+      repo: 'https://github.com/TCBuildMC',
+      loadSidebar: true,
+      loadNavbar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
+      },
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: '搜索...',
+        noData: '无结果',
+        depth: 4
+      },
+      copyCode: {
+        buttonText: '点击复制',
+        errorText: '出错了!',
+        successText: '已复制!',
+      },
+      pagination: {
+        previousText: {
+          '/': '上一章节'
+        },
+        nextText: {
+          '/': '下一章节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
+      },
+      tabs: {
+        tabComments: true,
+        tabHeadings: true,
+        sync: false
+      },
+      scrollToTop: {
+        auto: true,
+        text: '↑',
+        right: 12,
+        bottom: 52,
+        offset: 25
+      },
+      hideCode: {
+        scroll: true,
+        height: 300
+      },
+      'flexible-alerts': {
+        style: 'flat',
+        note: {
+          label: '笔记'
+        },
+        tip: {
+          label: '提示'
+        },
+        warning: {
+          label: '警告'
+        },
+        attention: {
+          label: '注意'
+        }
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//fastly.jsdelivr.net/npm/docsify@4"></script>
+  <!-- B 站视频 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-bilibili@latest/bilibili.min.js"></script>
+  <!-- 搜索框 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <!-- 图片缩放 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 复制代码 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-copy-code"></script>
+  <!-- 翻页 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- TAB 拓展 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <!-- 回到顶部 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-scroll-to-top@latest/dist/docsify-scroll-to-top.min.js"></script>
+  <!-- 代码折叠 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-hide-code/dist/docsify-hide-code.min.js"></script>
+  <!-- 自定义提示框 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-plugin-flexible-alerts"></script>
+  <!-- 脚注 -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-footnote/dist/docsify-footnote.min.js"></script>
+  <!-- 图片描述 -->
+  <script src="https://fastly.jsdelivr.net/gh/h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
 </body>
 </html>
