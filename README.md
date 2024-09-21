@@ -1,3 +1,3 @@
-# TubeCraft Impact Minecraft Server
+# TubeCraft Impact 服务器
 
-Hello there!
+你好
