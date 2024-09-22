@@ -2,22 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TubeCraft 服务器 | TubeTeam</title>
+  <title>TubeTeam | tcbuildmc.github.io</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Giscus -->
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/giscus.css">
 </head>
 <body>
   <div id="app">Loading... | 加载中...</div>
   <script>
     window.$docsify = {
-      name: 'TubeCraft 服务器',
+      name: 'TubeTeam',
       repo: 'https://github.com/TCBuildMC',
       loadSidebar: true,
       loadNavbar: true,
+      coverpage: true,
+      onlyCover: true,
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md'
       },
       search: {
@@ -72,7 +76,23 @@
         attention: {
           label: '注意'
         }
-      }
+      },
+      giscus: {
+        repo: "TCBuildMC/tcbuildmc.github.io",
+        repoId: "R_kgDOM04DVw",
+        category: "General",
+        categoryId: "DIC_kwDOM04DV84CiqOH",
+        mapping: "title",
+        reactionsEnabled: "0",
+        strict: "1",
+        emitMetadata: "0",
+        inputPosition: "top",
+        theme: "preferred_color_scheme",
+        lang: "zh-CN",
+        loading: "lazy",
+        // crossorigin: "anonymous",
+        // async: true
+      },
     }
   </script>
   <!-- Docsify v4 -->
@@ -99,5 +119,7 @@
   <script src="https://fastly.jsdelivr.net/gh/h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
   <!-- 侧边栏展开优化 -->
   <script src="//fastly.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- Giscus -->
+  <script src="//fastly.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
 </body>
 </html>

@@ -1,3 +1,3 @@
-* 关于
-  * [腐竹的 B 站](https://space.bilibili.com/1921596200)
-  * [腐竹的爱发电]()
+* [首页](Readme.md)
+* [TubeCraft 服务器](tubecraft/Readme.md)
+* [萌新的入门课](noob-tutorial/Readme.md)
