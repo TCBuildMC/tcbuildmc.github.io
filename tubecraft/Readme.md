@@ -10,6 +10,14 @@
 
 TubeCraft 是一个 RPG 类型的 **Minecraft Java 版**服务器，其它诸多你曾玩过的 RPG 类型服务器可能有些不同。
 
+## 服务器特色
+
+我们是群组服务器，有生存服/ 创造服/ 小游戏服（计划）。
+
+我们允许红石、建筑。
+
+我们支持正版/ 离线玩家加入。
+
 我们的艺术风格可能更加抽象，玩法可能也少许创新。
 
 ## 加入 TubeCraft
@@ -18,7 +26,4 @@ TubeCraft 是一个 RPG 类型的 **Minecraft Java 版**服务器，其它诸多
 
 请加入 [TubeCraft 企鹅群](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ESc34PDW_QBsKmIt0MaC461rAHKoizEI&authKey=iKNf34UbezkiTQ8wzxRtUq6bcIjVTEj7%2FkQjMGorG1C6cza3roGs%2B9F0MYYCivDK&noverify=0&group_code=495486104)
 
-## 关于此网站
-此网站使用 [Docsify v4](https://docsify.js.org) 搭建。
-
-[比语雀好多了（](Do-You-Know.md#tubecraft-有两个-wiki)
+*[比语雀好多了（](Do-You-Know.md#tubecraft-有两个-wiki)*

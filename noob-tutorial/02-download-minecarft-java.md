@@ -1,4 +1,7 @@
-# 下载 Minecraft
+# 下载 Minecraft Java 版
+
+> [!attention]
+> 本教程是关于 **Java 版** 的 Minecarft。
 
 ## PART 1 下载启动器
 
