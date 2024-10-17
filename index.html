@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>TubeTeam Wiki | tcbuildmc.github.io</title>
+  <title>TubeTeam 官方 Wiki | tcbuildmc.github.io</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- Giscus -->
   <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/giscus.css">
@@ -15,7 +15,7 @@
   <div id="app">Loading... | 加载中...</div>
   <script>
     window.$docsify = {
-      name: 'TubeTeam Wiki',
+      name: 'TubeTeam',
       repo: 'https://github.com/TCBuildMC',
       loadSidebar: true,
       loadNavbar: true,
@@ -23,6 +23,7 @@
       onlyCover: true,
       alias: {
         '/tubecraft/.*/_sidebar.md': '/tubecraft/_sidebar.md',
+        '/noob-tutorial/.*/_sidebar.md': '/noob-tutorial/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md'
       },
       search: {
@@ -94,11 +95,11 @@
         // crossorigin: "anonymous",
         // async: true
       },
-      toc: {
-        tocMaxLevel: 3,
-        target: 'h2, h3, h4, h5, h6',
-        ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
-      },
+      // toc: {
+      //   tocMaxLevel: 3,
+      //   target: 'h2, h3, h4, h5, h6',
+      //   ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+      // },
     }
   </script>
   <!-- Docsify v4 -->
@@ -122,12 +123,12 @@
   <!-- 脚注 -->
   <script src="//fastly.jsdelivr.net/npm/docsify-footnote/dist/docsify-footnote.min.js"></script>
   <!-- 图片描述 -->
-  <script src="https://fastly.jsdelivr.net/gh/h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
+  <script src="//fastly.jsdelivr.net/gh/h-hg/docsify-image-caption/dist/docsify-image-caption.min.js"></script>
   <!-- 侧边栏展开优化 -->
   <script src="//fastly.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
   <!-- Giscus -->
   <script src="//fastly.jsdelivr.net/npm/docsify-giscus@1.0.0/dist/docsify-giscus.min.js"></script>
   <!-- 本章目录拓展组件 -->
-  <script src="https://fastly.jsdelivr.net/npm/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+  <!-- <script src="//fastly.jsdelivr.net/npm/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script> -->
 </body>
 </html>
