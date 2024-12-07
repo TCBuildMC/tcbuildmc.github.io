@@ -4,18 +4,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://tcbuildmc.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "TubeTeam",
+    url: "https://tcbuildmc.github.io",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "fontawesome",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "assets/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "TCBuildMC/tcbuildmc.github.io",
 
   docsDir: "src",
 
@@ -26,7 +26,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "由 <a href=\"https://vuejs.press/zh/\" target=\"_blank\">VuePress</a> 和 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题强力驱动 | © 2024 TubeTeam",
   displayFooter: true,
 
   // 加密配置
@@ -39,7 +39,17 @@ export default hopeTheme({
   // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
+    // lastUpdated: true
   },
+
+  pageInfo: [
+    "Author", 
+    "Original", 
+    "Date", 
+    "Category", 
+    "PageView", 
+    "ReadingTime"
+  ],
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -47,13 +57,13 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
-    comment: {
-      provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
-      category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
-    },
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     components: {
       components: ["Badge", "VPCard"],

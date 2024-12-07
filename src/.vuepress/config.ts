@@ -4,10 +4,9 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
-
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "TubeTeam",
+  description: "TubeTeam 官方网站",
 
   theme,
 
