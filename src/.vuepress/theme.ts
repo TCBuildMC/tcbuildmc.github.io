@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome",
 
-  logo: "assets/logo.svg",
+  logo: "/assets/logo.svg",
 
   repo: "TCBuildMC/tcbuildmc.github.io",
 
@@ -26,8 +26,9 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "由 <a href=\"https://vuejs.press/zh/\" target=\"_blank\">VuePress</a> 和 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题强力驱动 | © 2024 TubeTeam",
+  footer: "由 <a href=\"https://vuejs.press/zh/\" target=\"_blank\">VuePress</a> 和 <a href=\"https://theme-hope.vuejs.press/zh/\" target=\"_blank\">VuePress Theme Hope</a> 主题强力驱动",
   displayFooter: true,
+  copyright: "© 2024 TubeTeam",
 
   // 加密配置
   encrypt: {

@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: assets/logo.svg
+heroImage: /assets/logo.svg
 bgImageStyle:
   background-attachment: fixed
 heroFullScreen: true
@@ -315,6 +315,4 @@ highlights:
   #       icon: mobile-screen
   #       details: 让你的网站更像一个 APP
   #       link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
-
-copyright: false
 ---
