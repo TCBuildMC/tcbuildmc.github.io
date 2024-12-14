@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome",
 
-  logo: "/assets/logo.svg",
+  logo: "/assets/img/logo.svg",
 
   repo: "TCBuildMC/tcbuildmc.github.io",
 

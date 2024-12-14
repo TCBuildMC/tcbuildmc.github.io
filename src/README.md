@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: /assets/logo.svg
+heroImage: /assets/img/logo.svg
 bgImageStyle:
   background-attachment: fixed
 heroFullScreen: true
